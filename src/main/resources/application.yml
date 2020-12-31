@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+cliente:
+  datasource:
+    jdbcUrl: jdbc:mysql://localhost/cliente
+    username: root
+    password: root
+
+pagamento:
+  datasource:
+    jdbcUrl: jdbc:mysql://localhost/pagamentos
+    username: root
+    password: root
